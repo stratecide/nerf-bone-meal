@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "nerf-bone-meal",
+	"version": "${version}",
+	"name": "Nerf Bone Meal",
+	"description": "Nerfs Bone Meal",
+	"authors": [
+		"Stratecide"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT License",
+	"icon": "assets/nerf-bone-meal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.stratecide.nerf_bone_meal.NerfBoneMealMod"
+		]
+	},
+	"mixins": [
+		"nerf-bone-meal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.6",
+		"minecraft": "~1.19",
+		"java": ">=17"
+	}
+}
